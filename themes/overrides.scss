@@ -1,0 +1,32 @@
+// This file overrides default styles as a default style is 
+// overridden, the plugin that the style comes from will be highlighted with a 
+// section heading.
+
+/**
+* Storybook
+*/
+@use 'vars';
+
+:global .markdown-body ul {
+    list-style: disc;
+}
+
+/**
+* Material UI
+*/
+
+.MuiFormLabel-root,
+.MuiInputLabel-root {
+    position: relative !important;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 1.7142857142857142rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}
+
+.MuiFormHelperText-root {
+    color: vars.$error !important;
+}

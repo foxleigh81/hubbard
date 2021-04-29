@@ -1,0 +1,39 @@
+@use 'reset';
+@use 'overrides';
+
+::selection { /* Code for Firefox */
+  background: vars.$primary;
+  color: vars.$lightest;
+}
+
+::selection {
+  background: vars.$primary;
+  color: vars.$lightest;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: vars.$default;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: vars.$primary;
+}
+
+p a {
+  text-decoration: underline;
+}

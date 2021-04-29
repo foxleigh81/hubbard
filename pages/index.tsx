@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../layouts/Layout'
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">

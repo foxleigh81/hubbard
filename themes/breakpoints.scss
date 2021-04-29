@@ -1,0 +1,17 @@
+// A list of standard breakpoints
+// Additional breakpoints may be applied on a component-level
+
+$extra-small: 321px;
+$small: 420px;
+$medium-small: 550px;
+$medium: 1024px;
+$medium-large: 1280px;
+$large: 1600px;
+
+
+// A mixin to simplify writing breakpoints
+@mixin mq($size) {
+    @media only screen and (min-width: $size) {
+      @content
+    }
+}
